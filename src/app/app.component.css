@@ -1,0 +1,45 @@
+
+
+.wrapper{
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1, h2, h3, h4 {  
+  font-weight: 900;
+  color: #333;
+  margin: 1.5em 0 0.5em;
+}
+
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.3em;}
+
+
+/*Basic Grid Styles*/
+.grid {
+  display: flex;
+  flex-flow: row; 
+  flex-wrap: wrap;
+}
+.text-center {
+ text-align: center;
+}
+.grid-cell {
+  flex: 1;
+}
+
+
+.demo {
+  padding: .8em 1em 0 0;
+  margin: 0 .5em 0 .5em;
+  background: rgba(51, 153, 204,.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #33cccc;
+  border-radius: 3px;
+}
+.demo:hover {
+  background: rgba(51, 153, 204,.6);
+}
