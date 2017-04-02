@@ -9,6 +9,29 @@ Run
 
 	npm install ngx-fill-height
 
+Import `FillHeightModule` to your app.
+
+Example
+	
+	...
+	import { FillHeightModule } from 'ngx-fill-height/fill-height.module';
+
+	@NgModule({
+		declarations: [
+			AppComponent,
+		],
+		imports: [
+			BrowserModule,
+			FormsModule,
+			HttpModule,
+			FillHeightModule,
+		],
+		providers: [],
+		bootstrap: [AppComponent]
+	})
+	export class AppModule { }
+
+
 Add `fill-height` directive to any block element.
 
 Example
