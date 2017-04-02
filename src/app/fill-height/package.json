@@ -1,0 +1,55 @@
+{
+  "name": "ngx-fill-height",
+  "version": "0.0.1",
+  "description": "Angular2 or heigher directive that will calculate the height to for a given element so that it will fill the whole window according to its offsetTop and make it scrollable.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arthurvaverko/ngx-fill-height.git"
+  },
+  "keywords": [
+    "angular",
+    "angular2",
+    "ng2",
+    "ngx",
+	"page",
+    "fill",
+    "height",
+    "auto",
+    "automatically",
+	"directive"
+  ],
+  "author": "Arthur Vaverko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arthurvaverko/ngx-fill-height/issues"
+  },
+  "main": "ngx-fill-height.js",
+  "homepage": "https://github.com/arthurvaverko/ng2-sticky",
+  "dependencies": {},
+  "devDependencies": {
+    "@angular/common": "2.4.4",
+    "@angular/compiler": "2.4.4",
+    "@angular/core": "2.4.4",
+    "@angular/platform-browser": "2.4.4",
+    "@angular/platform-browser-dynamic": "2.4.4",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "^2.5.38",
+    "@types/node": "^6.0.61",
+    "core-js": "^2.4.1",
+    "jasmine-core": "~2.5.2",
+    "karma": "0.13.22",
+    "karma-chrome-launcher": "~1.0.1",
+    "karma-firefox-launcher": "~1.0.0",
+    "karma-jasmine": "1.1.0",
+    "karma-phantomjs-launcher": "~1.0.0",
+    "karma-spec-reporter": "0.0.26",
+    "lite-server": "~2.2.2",
+    "phantomjs-polyfill": "0.0.2",
+    "phantomjs-prebuilt": "2.1.14",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.3",
+    "systemjs": "~0.19.41",
+    "typescript": "~2.1.4",
+    "zone.js": "^0.7.2"
+  }
+}
