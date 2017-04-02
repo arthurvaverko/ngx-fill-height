@@ -5,9 +5,6 @@ Angular directive to change the height of a div to fill the available space in t
 
 Usage
 ----
-Run
-
-	npm install ngx-fill-height
 
 Add `fill-height` directive to any block element.
 
