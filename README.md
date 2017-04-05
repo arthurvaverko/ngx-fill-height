@@ -41,6 +41,11 @@ Example
         content goes here
     </div>
 
+Optionally add consider footer element by passing the elementRef of the footer
+	<div fill-height [footerElement]="footerRef">
+        content goes here
+    </div>
+	<div #footerRef>footer</div>
 
 Live demo: [https://arthurvaverko.github.io/ngx-fill-height/](https://arthurvaverko.github.io/ngx-fill-height/)
 
