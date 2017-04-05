@@ -60,6 +60,10 @@ To run a live development srver run
 	
 	ng serve
 
+Note the demo is part of the repo and the dist folder is used for the example page so before commit use
+
+	ng build --base-href ngx-fill-height
+
 Commit to the Github-Pages branch any chages in the example component:
 	
 	git subtree push --prefix dist origin gh-pages
