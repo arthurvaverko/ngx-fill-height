@@ -1,6 +1,6 @@
 {
   "name": "ngx-fill-height",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Angular2 or heigher directive that will calculate the height to for a given element so that it will fill the whole window according to its offsetTop and make it scrollable.",
   "repository": {
     "type": "git",

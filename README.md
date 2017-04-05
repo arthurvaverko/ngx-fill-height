@@ -44,4 +44,20 @@ Example
 
 Live demo: [https://arthurvaverko.github.io/ngx-fill-height/](https://arthurvaverko.github.io/ngx-fill-height/)
 
+Contribution
+----
+Frok and clone then run
+	
+	npm install
+
+This repo is based on Angular-cli.
+To run a live development srver run
+	
+	ng serve
+
+Commit to the Github-Pages branch any chages in the example component:
+	
+	git subtree push --prefix dist origin gh-pages
+
+
 * Inspierd by: [https://github.com/anthonychu/angular-fill-height-directive](https://github.com/anthonychu/angular-fill-height-directive)

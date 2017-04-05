@@ -29,17 +29,47 @@ h4 {font-size: 1.3em;}
 }
 .grid-cell {
   flex: 1;
+  position: relative;
 }
 
 
 .demo {
-  padding: .8em 1em 0 0;
+  padding: 0 1em 0 0;
   margin: 0 .5em 0 .5em;
   background: rgba(51, 153, 204,.2);
   transition: background-color 0.3s ease;
   border: 1px solid #33cccc;
-  border-radius: 3px;
 }
 .demo:hover {
   background: rgba(51, 153, 204,.6);
+}
+
+.demo.header {
+  padding: 0 1em 0 0;
+  background: rgba(153, 51, 204,.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #cc33cc;
+}
+.demo.demo.header:hover {
+  background: rgba(153, 51, 204,.6);
+}
+
+.demo.footer {
+  padding: 0 1em 0 0;
+  background: rgba(255, 255, 51,.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #cccc33;
+}
+.demo.demo.footer:hover {
+  background: rgba(255, 255, 51,.6);
+}
+
+
+
+.footer {
+	position: absolute;
+	left: -1px;
+    right: 1px;
+	bottom: 0px;
+	z-index: 99999;
 }
